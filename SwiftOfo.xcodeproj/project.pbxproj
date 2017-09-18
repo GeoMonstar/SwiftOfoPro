@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57BC6ADDFD3BAD9C6FF3E99E /* Pods_SwiftOfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2084D41B8B806AC4EA293A83 /* Pods_SwiftOfo.framework */; };
+		850BDE9A1F67DD0D009BF294 /* circleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850BDE991F67DD0D009BF294 /* circleView.swift */; };
 		853170C71F6779EC007E7A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853170C61F6779EC007E7A66 /* AppDelegate.swift */; };
 		853170C91F6779EC007E7A66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853170C81F6779EC007E7A66 /* ViewController.swift */; };
 		853170CC1F6779EC007E7A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853170CA1F6779EC007E7A66 /* Main.storyboard */; };
 		853170CE1F6779EC007E7A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853170CD1F6779EC007E7A66 /* Assets.xcassets */; };
 		853170D11F6779EC007E7A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853170CF1F6779EC007E7A66 /* LaunchScreen.storyboard */; };
+		85478A011F6909590035DC8F /* bigbtn.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 85478A001F6909590035DC8F /* bigbtn.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2084D41B8B806AC4EA293A83 /* Pods_SwiftOfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260C96D2660408D9DC629D0C /* Pods-SwiftOfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOfo/Pods-SwiftOfo.release.xcconfig"; sourceTree = "<group>"; };
+		850BDE981F67C137009BF294 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		850BDE991F67DD0D009BF294 /* circleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circleView.swift; sourceTree = "<group>"; };
 		853170C31F6779EC007E7A66 /* SwiftOfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853170C61F6779EC007E7A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853170C81F6779EC007E7A66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,8 @@
 		853170CD1F6779EC007E7A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853170D01F6779EC007E7A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853170D21F6779EC007E7A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85478A001F6909590035DC8F /* bigbtn.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigbtn.PNG; sourceTree = "<group>"; };
+		D11C736C43A9011DBCDCA19B /* Pods-SwiftOfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOfo/Pods-SwiftOfo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BC6ADDFD3BAD9C6FF3E99E /* Pods_SwiftOfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +50,8 @@
 			children = (
 				853170C51F6779EC007E7A66 /* SwiftOfo */,
 				853170C41F6779EC007E7A66 /* Products */,
+				EB2ABB6EB3CC4A1C0CF0977E /* Pods */,
+				BCE53C02E21766C73515DC15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +66,34 @@
 		853170C51F6779EC007E7A66 /* SwiftOfo */ = {
 			isa = PBXGroup;
 			children = (
+				85478A001F6909590035DC8F /* bigbtn.PNG */,
 				853170C61F6779EC007E7A66 /* AppDelegate.swift */,
 				853170C81F6779EC007E7A66 /* ViewController.swift */,
+				850BDE991F67DD0D009BF294 /* circleView.swift */,
 				853170CA1F6779EC007E7A66 /* Main.storyboard */,
 				853170CD1F6779EC007E7A66 /* Assets.xcassets */,
 				853170CF1F6779EC007E7A66 /* LaunchScreen.storyboard */,
 				853170D21F6779EC007E7A66 /* Info.plist */,
+				850BDE981F67C137009BF294 /* bridge.h */,
 			);
 			path = SwiftOfo;
+			sourceTree = "<group>";
+		};
+		BCE53C02E21766C73515DC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2084D41B8B806AC4EA293A83 /* Pods_SwiftOfo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB2ABB6EB3CC4A1C0CF0977E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11C736C43A9011DBCDCA19B /* Pods-SwiftOfo.debug.xcconfig */,
+				260C96D2660408D9DC629D0C /* Pods-SwiftOfo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853170D51F6779EC007E7A66 /* Build configuration list for PBXNativeTarget "SwiftOfo" */;
 			buildPhases = (
+				8C2CB862C21FA4AB2307814E /* [CP] Check Pods Manifest.lock */,
 				853170BF1F6779EC007E7A66 /* Sources */,
 				853170C01F6779EC007E7A66 /* Frameworks */,
 				853170C11F6779EC007E7A66 /* Resources */,
+				90EA395136B7D452A22D97E2 /* [CP] Embed Pods Frameworks */,
+				8BF5FB321C35315E84D93DCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +132,7 @@
 					853170C21F6779EC007E7A66 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7L2R245DH9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,10 +163,59 @@
 				853170D11F6779EC007E7A66 /* LaunchScreen.storyboard in Resources */,
 				853170CE1F6779EC007E7A66 /* Assets.xcassets in Resources */,
 				853170CC1F6779EC007E7A66 /* Main.storyboard in Resources */,
+				85478A011F6909590035DC8F /* bigbtn.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BF5FB321C35315E84D93DCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOfo/Pods-SwiftOfo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2CB862C21FA4AB2307814E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90EA395136B7D452A22D97E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOfo/Pods-SwiftOfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		853170BF1F6779EC007E7A66 /* Sources */ = {
@@ -138,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				853170C91F6779EC007E7A66 /* ViewController.swift in Sources */,
+				850BDE9A1F67DD0D009BF294 /* circleView.swift in Sources */,
 				853170C71F6779EC007E7A66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,26 +345,34 @@
 		};
 		853170D61F6779EC007E7A66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11C736C43A9011DBCDCA19B /* Pods-SwiftOfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7L2R245DH9;
 				INFOPLIST_FILE = SwiftOfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftOfo.monstar.SwiftOfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftOfo.monstar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftOfo/bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		853170D71F6779EC007E7A66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260C96D2660408D9DC629D0C /* Pods-SwiftOfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7L2R245DH9;
 				INFOPLIST_FILE = SwiftOfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftOfo.monstar.SwiftOfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftOfo.monstar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftOfo/bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +396,7 @@
 				853170D71F6779EC007E7A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
